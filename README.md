@@ -4,7 +4,7 @@ This repository provides a **structured, easy-to-edit LaTeX thesis template** de
 
 ## Features
 - **Bahria University Compliance**: Configured for A4 paper, 12pt font, two-sided printing, with 1.5-inch left margin, 1-inch other margins, Times New Roman font, and 1.5 line spacing, as required for MS and PhD submissions.
-- **Predefined Constants**: Uses `\newcommand` for consistent reuse of key details like author name (`Ammar`), thesis title (`Direction of Arrival Estimation for Digital Phased Array`), supervisor name (`Dr. Hazoor Ahmad, PhD`), and enrollment number (`01-249231-002`).
+- **Predefined Constants**: Uses `\newcommand` for consistent reuse of key details like author name (`Hamza Saleem`), thesis title (`THESIS TITLE IN CAPITAL LETTERS`), supervisor name (`Dr. Hazoor Ahmad, PhD`), and enrollment number (`01-249231-002`).
 - **Modular Structure**: Organized with separate files for preamble, title pages, abstract, nomenclature, chapters, and references for easy maintenance.
 - **Comprehensive Sections**: Includes title page, abstract, table of contents, list of tables, list of figures, nomenclature, chapters, references (using `elsarticle-num` BibTeX style), and appendices.
 - **Version Control Ready**: Clear file structure supports Git for tracking changes and collaboration.
@@ -30,8 +30,8 @@ This repository provides a **structured, easy-to-edit LaTeX thesis template** de
    - Use TeXstudio or another LaTeX editor.
 3. **Customize Constants**:
    - Edit `\newcommand` definitions in `main.tex` to update:
-     - `\AuthorName{Ammar}` to your name.
-     - `\ThesisTitle{Direction of Arrival Estimation for Digital Phased Array}` to your MS or PhD thesis title.
+     - `\AuthorName{Hamza Saleem}` to your name.
+     - `\ThesisTitle{THESIS TITLE IN CAPITAL LETTERS}` to your MS or PhD thesis title.
      - `\SupervisorName{Dr. Hazoor Ahmad, PhD}` to your supervisor’s name.
      - `\EnrollmentNumber{01-249231-002}` to your enrollment number.
 4. **Add Content**:
@@ -64,7 +64,7 @@ This repository provides a **structured, easy-to-edit LaTeX thesis template** de
 - **Modular and Maintainable**: Separate files for chapters, preamble, and references simplify editing and collaboration.
 - **SEO-Optimized**: Designed for discoverability with searches like "Bahria University MS thesis template," "Bahria University PhD dissertation template," or "LaTeX thesis format for Pakistani universities."
 - **Beginner-Friendly**: Clear file organization and comments make it accessible for LaTeX newcomers.
-- **Real-World Example**: Based on a thesis for "Direction of Arrival Estimation for Digital Phased Array," supervised by Dr. Hazoor Ahmad, PhD, ensuring relevance for technical MS and PhD programs.
+- **Real-World Example**: Based on a thesis for "THESIS TITLE IN CAPITAL LETTERS," supervised by Dr. Hazoor Ahmad, PhD, ensuring relevance for technical MS and PhD programs.
 
 ## Contributing
 Contributions are welcome! To improve the template for MS or PhD students:
