@@ -23,7 +23,7 @@ This repository provides a **structured, easy-to-edit LaTeX thesis template** de
 ## How to Use
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/bahria-university-thesis-template.git
+   git clone [https://github.com/your-username/bahria-university-thesis-template.git](https://github.com/hazooree/Bahria-University-Islamabad-Thesis-Template-Format)
    ```
 2. **Set Up LaTeX Environment**:
    - Install a LaTeX distribution (e.g., MiKTeX or TeX Live).
