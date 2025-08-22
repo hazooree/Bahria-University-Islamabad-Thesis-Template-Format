@@ -77,6 +77,6 @@ Contributions are welcome! To improve the template for MS or PhD students:
 This template is licensed under the [MIT License](LICENSE), allowing free use, modification, and distribution.
 
 ## Contact
-For questions or issues, open an issue on this repository or contact [your-email@example.com](mailto:your-email@example.com).
+For questions or issues, open an issue on this repository or contact [hazoor786@gmail.com](mailto:hazoor786@gmail.com).
 
 **Keywords**: Bahria University MS thesis template, Bahria University PhD dissertation template, LaTeX thesis format, Bahria University Islamabad thesis guidelines, TeXstudio thesis template, LaTeX template for Pakistani universities, MS thesis formatting, PhD dissertation formatting, Direction of Arrival Estimation thesis, Electrical Engineering thesis, Dr. Hazoor Ahmad PhD.
