@@ -1,0 +1,21 @@
+\usepackage[left=4.5cm,right=4.5cm,top=4.0cm,bottom=3.5cm]{geometry}
+\usepackage{textcase, titletoc, multirow, lmodern, sectsty, booktabs}
+\usepackage[english]{babel}
+\newtheorem{defn}{Definition}[section]
+\newtheorem{exmp}{Example}[section]
+\usepackage[normalem]{ulem}
+\usepackage{etoolbox, tocloft, amsmath, algorithm,algorithmic}
+\usepackage[table,x11names]{xcolor}
+\usepackage{caption, subcaption, blindtext, indentfirst, tocloft}
+\setlength{\parindent}{1.0cm}
+\usepackage[utf8]{inputenc}
+\usepackage[autostyle]{csquotes}
+\usepackage[pdftex]{graphicx}
+\renewcommand{\baselinestretch}{1.1}
+\renewcommand{\contentsname}{\hspace{40mm} \large \MakeTextUppercase{Table of Contents}}
+\renewcommand{\listtablename}{\hspace{50mm} \large \MakeTextUppercase{list of table}}
+\renewcommand{\listfigurename}{\hspace{50mm} \large \MakeTextUppercase{list of figure}}
+
+\makeatletter
+\patchcmd{\l@chapter}{#1}{\small \MakeTextUppercase{#1}}{}{}
+\makeatother

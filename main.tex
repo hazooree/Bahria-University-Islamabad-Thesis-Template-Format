@@ -1,0 +1,32 @@
+\documentclass[a4paper,12pt,twoside]{report}
+\input{Extras/preamble.tex}
+\newcommand{\AuthorName}{Ammar}
+\newcommand{\ThesisTitle}{DIRECTION OF ARRIVAL ESTIMATION FOR	DIGITAL PHASED ARRAY}
+\newcommand{\SupervisorName}{Dr. Hazoor Ahmad}
+\newcommand{\EnrollmentNumber}{01-249231-002}
+
+\begin{document}
+	\input{Extras/title_pages.tex}
+	\input{abstract/abstract.tex}
+	\tableofcontents
+	\listoftables
+	\listoffigures
+	\input{Extras/nomenclature.tex}
+	\input{Chapter1/Chapter1.tex}
+	\input{Chapter2/Chapter2.tex}
+	\input{Chapter3/Chapter3.tex}
+	\input{Chapter4/Chapter4.tex}
+	\input{Chapter5/Chapter5.tex}
+	% References
+	\addcontentsline{toc}{chapter}{References}
+	\bibliographystyle{elsarticle-num}
+	\bibliography{Extras/References.bib}
+	% Appendices
+	\newpage
+	\addcontentsline{toc}{chapter}{Appendices A-Y}
+	\begin{center}
+	    \large \textbf{APPENDIX A}
+	\end{center}
+	\vskip 0.45in
+	Insert here, implementation details.
+\end{document}
